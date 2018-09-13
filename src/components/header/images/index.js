@@ -1,0 +1,1 @@
+export const logo = 'http://bct-recruitment.s3-website-ap-southeast-2.amazonaws.com/assets/logo.svg';
