@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../../components/header';
-import './main.css';
+import Dashboard from './components/dashboard';
+import '../../root.css';
 
 const MainScreen = () => (
-    <div className = 'main'>
+    <div>
         <Header />
-        <div>Hello</div>
+        <Dashboard />
     </div>
 );
 export default MainScreen;

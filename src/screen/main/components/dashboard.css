@@ -1,0 +1,11 @@
+.wrapper {
+    margin: 100px 0 150px;
+  }
+.title {
+    font-family: 'RobotoNormal';
+    font-weight: 100;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 3px;
+  
+}
