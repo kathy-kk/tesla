@@ -3,3 +3,7 @@
     margin:0;
     padding:0;
   }
+
+:global(ul) {
+  text-align: center;
+}
