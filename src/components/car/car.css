@@ -4,3 +4,47 @@
     background: #fff url(/assets/tesla.jpg) no-repeat top center;
     background-size: contain;
 }
+.wheels {
+    height: 247px;
+    width: 555px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.run {
+    background-image: url(/assets/wheel-21.png);
+    animation: infinite-spinning 80ms steps(12) infinite;
+    animation-name: infinite-spinning;
+    animation-duration: 80ms;
+    animation-timing-function: steps(12, end);
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes infinite-spinning {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.wheel{
+  height: 80px;
+  width: 80px;
+  bottom: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.front {
+  left: 53px;
+}
+
+.rear {
+    right: 72px;
+}
