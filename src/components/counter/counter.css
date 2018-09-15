@@ -1,0 +1,75 @@
+.counter {
+    float: left;
+    width: 230px;
+}
+.title {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.container {
+    margin: 10px 0 0;
+    padding-right: 40px;
+}
+.item {
+    position: relative;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 18px 0 0 30px;
+    margin: 0 8px 0 0;
+    background-color: #f7f7f7;
+    background-position: 24.21053% 9px;
+    background-repeat: no-repeat;
+    background-size: 44px;
+}
+.value {
+  font-family: 'RobotoNormal';
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 400;
+  position: relative;
+}
+.symbol {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.counter-button {
+    outline: 0;
+    width: 30px;
+    color: #008dff;
+    cursor: pointer;
+    display: block;
+    padding: 11px 0;
+    vertical-align: middle;
+    border: 0;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.buttons {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.button-up {
+    border-bottom: 1px solid #fff;
+    background-image: url(/assets/counter/up.svg);
+}
+.button-down {
+    border-top: 1px solid #ccc;
+    background-image: url(/assets/counter/down.svg);
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
