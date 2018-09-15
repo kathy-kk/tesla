@@ -9,7 +9,8 @@ class ControlBoard extends React.Component{
         return  <div className = {styles.container}>
             <Speed />
             <Climate/>
-            <Wheels />
+            <Wheels/>
+            <div>''</div>
         </div>;
     }
 }

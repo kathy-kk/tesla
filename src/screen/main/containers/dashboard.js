@@ -3,6 +3,8 @@ import styles from './dashboard.css';
 import Car from '../../../components/car';
 import StatsBar from './statsBar';
 import ControlBoard from './controlBoard';
+import Notice from '../../../components/notice';
+
 
 const Dashboard = () => (
     <div className = {styles.wrapper}>
@@ -11,6 +13,7 @@ const Dashboard = () => (
             <Car />
             <StatsBar />
             <ControlBoard />
+            <Notice />
         </form>
     </div>
 );
