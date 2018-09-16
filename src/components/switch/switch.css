@@ -1,15 +1,25 @@
 .container {
     float: left;
 }
-.item-on {
+.item-heat-on {
+    color: #fff;
+    background: #d64800;
+    background: linear-gradient(to bottom, #d64800 0%, #d20200 100%);
+}
+.item-heat-off{
+    color: #666;
+    background: #fff;
+}
+.item-ac-on {
     color: #fff;
     background: #33a0ff;
     background: linear-gradient(to bottom, #33a0ff 0%, #388bff 100%);
 }
-.item-off {
+.item-ac-off {
     color: #666;
     background: #fff;
 }
+
 .item {
     cursor: pointer;
     display: block;
@@ -34,11 +44,18 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.icon-off {
+.icon-heat-on {
+    background-image: url(/assets/climate/heat-on.svg);
+}
+.icon-heat-off {
+    background-image: url(/assets/climate/heat-off.svg);
+  }
+
+.icon-ac-off {
   background-image: url(/assets/climate/ac-off.svg);
 }
-.icon-on {
-    background-image: url(/assets/climate/ac-on.svg);
+.icon-ac-on {
+  background-image: url(/assets/climate/ac-on.svg);
 }
 .switch-input {
     border: 0;
